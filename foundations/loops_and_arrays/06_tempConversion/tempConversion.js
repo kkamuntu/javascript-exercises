@@ -9,7 +9,7 @@ const convertToCelsius = function(temp) {
 const convertToFahrenheit = function(temp) {
   const fahrenheit = (temp * 9/5) + 32;
   return roundToOneDecimalPlace(fahrenheit);
-}; //test
+};
 
 // Do not edit below this line
 module.exports = {
